@@ -21,7 +21,6 @@ gnome-sudoku \
 gnome-todo \
 gnome-todo-common \
 gnome-video-effects \
-guile-2.0-libs \
 hexchat* \
 hunspell-de-at-frami \
 hunspell-de-ch-frami \
@@ -95,7 +94,7 @@ mythes-pt-pt \
 mythes-ru \
 pix* \
 python3-uno \
-redshift*
+redshift* \
 remmina* \
 rhythmbox* \
 seahorse-daemon \
@@ -112,4 +111,4 @@ vlc* \
 warpinator \
 webapp-manager \
 yt-dlp \
-zeitgeist-core \
+zeitgeist-core
