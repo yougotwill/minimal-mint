@@ -18,7 +18,6 @@ gnome-calendar \
 gnome-mahjongg \
 gnome-mines \
 gnome-sudoku \
-gnome-todo \
 gnome-todo-common \
 gnome-video-effects \
 hexchat* \
@@ -52,7 +51,6 @@ libabw-0.1-1 \
 libavahi-ui-gtk3-0 \
 libcheese-gtk25 \
 libcheese8 \
-libdmapsharing-3.0-2 \
 libexttextcat-2.0-0 \
 libexttextcat-data \
 libfreehand-0.1-1 \
