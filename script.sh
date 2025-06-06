@@ -22,7 +22,7 @@ printf "Removing packages...""\n"
 
 while read package
 do
-  apt purge --ignore-missing --auto-remove -y "$package"
+  apt autoremove --purge --ignore-missing -y "$package"
 done < "packages.txt"
 
 printf "\n""Packages removed successfully!"

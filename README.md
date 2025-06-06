@@ -13,7 +13,7 @@ The script removes a variety of applications including, but not limited to:
 - Utilities like Deja Dup, Drawing, and Simple Scan.
 - Various language packs and libraries.
 
-For a complete list, please refer to the [script](mini.sh).
+For a complete list, please refer to the [packages.txt](packages.txt).
 
 ## Getting Started
 
@@ -23,24 +23,30 @@ For a complete list, please refer to the [script](mini.sh).
 
 ### Installation
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/yougotwill/minimal-mint.git
    ```
 2. Change directory:
-   ```bash
+   ```
    cd minimal-mint
    ```
 
 ### Usage
-1. Review the script to understand which applications will be removed.
+1. Review the files to understand which applications will be removed.
 2. Execute the script:
-   ```bash
-   sudo bash mini.sh
+   ```
+   sudo bash ./script.sh
    ```
 3. Follow any on-screen prompts to complete the process.
+4. After running the script, you may want to remove any remaining configuration files and caches:
+   ```
+   sudo apt autoclean
+   # Optional: Remove LibreOffice registry if present
+   sudo rm -rf /etc/libreoffice/registry/res
+   ```
 
 ## Customization
-Edit [`mini.sh`](mini.sh) to customize which applications to remove. 
+Edit [`packages.txt`](packages.txt) to customize which applications to remove. 
 
 Comment out any line to keep the associated application.
 
